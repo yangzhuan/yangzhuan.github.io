@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>这是Mr.yang文章</title>
+    <url>/2020/08/05/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="yang"><a href="#yang" class="headerlink" title="yang"></a>yang</h3><a id="more"></a>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>样本笔记</title>
+    <url>/2020/08/05/yang/</url>
+    <content><![CDATA[<h1 id="My-yang"><a href="#My-yang" class="headerlink" title="My.yang"></a>My.yang</h1><a id="more"></a>
+<h2 id="这是第一篇文章"><a href="#这是第一篇文章" class="headerlink" title="这是第一篇文章"></a>这是第一篇文章</h2><h3 id="这个是三级标题"><a href="#这个是三级标题" class="headerlink" title="这个是三级标题"></a>这个是三级标题</h3><ul>
+<li><p>列表1</p>
+</li>
+<li><p>列表2<br> a 子列表<br> b  2子列表</p>
+</li>
+<li><p>列表三</p>
+</li>
+</ul>
+<hr>
+<p> <a href="https://www.zhihu.com/">知乎链接测试</a></p>
+<p> ！<a href="url:source/images/Mr.yang.png">图片</a> 未成功</p>
+<p> <em>字体是不是斜着的</em><br> <strong>字体是不是加粗的</strong></p>
+<p> 代码块<br> <code>&lt;html&gt;&lt;html&gt;</code><br> 多行代码块</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">   &lt;head&gt;</span><br><span class="line">       &lt;title&gt;</span><br><span class="line">       &lt;&#x2F;title&gt;</span><br><span class="line">   &lt;&#x2F;head&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>我的内容是引用的</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>分享</tag>
+        <tag>导航</tag>
+      </tags>
+  </entry>
+</search>
