@@ -3,25 +3,7 @@
   <entry>
     <title>Mr.yang</title>
     <url>/2020/08/05/yang/</url>
-    <content><![CDATA[<h1 id="My-yang"><a href="#My-yang" class="headerlink" title="My.yang"></a>My.yang</h1><a id="more"></a>
-<h2 id="这是第一篇文章"><a href="#这是第一篇文章" class="headerlink" title="这是第一篇文章"></a>这是第一篇文章</h2><h3 id="这个是三级标题"><a href="#这个是三级标题" class="headerlink" title="这个是三级标题"></a>这个是三级标题</h3><ul>
-<li><p>列表1</p>
-</li>
-<li><p>列表2<br> a 子列表<br> b  2子列表</p>
-</li>
-<li><p>列表三</p>
-</li>
-</ul>
-<hr>
-<p> <a href="https://www.zhihu.com/">知乎链接测试</a></p>
-<p> ！<a href="url:source/images/Mr.yang.png">图片</a> 未成功</p>
-<p> <em>字体是不是斜着的</em><br> <strong>字体是不是加粗的</strong></p>
-<p> 代码块<br> <code>&lt;html&gt;&lt;html&gt;</code><br> 多行代码块</p>
- <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">   &lt;head&gt;</span><br><span class="line">       &lt;title&gt;</span><br><span class="line">       &lt;&#x2F;title&gt;</span><br><span class="line">   &lt;&#x2F;head&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>我的内容是引用的</p>
-</blockquote>
+    <content><![CDATA[<h1 id="生活不苟且"><a href="#生活不苟且" class="headerlink" title="生活不苟且"></a>生活不苟且</h1><a id="more"></a>
 ]]></content>
       <categories>
         <category>个人</category>
@@ -37,16 +19,9 @@
     <content><![CDATA[<h1 id="css第二天"><a href="#css第二天" class="headerlink" title="css第二天"></a>css第二天</h1><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><a id="more"></a>
 <h3 id="表格的主要作用"><a href="#表格的主要作用" class="headerlink" title="表格的主要作用"></a>表格的主要作用</h3><p>​    1.表格主要用于显示、展示数据，因为它可以让数据显示的非常的规整，可读性非常好。特别是后台展示数据的时候，能够熟练运用表格就显得很重要。一个清爽简约的表格能够把繁杂的数据表现得很有条理</p>
 <pre><code>2.表格不是用来布局页面的,而是用来展示数据的。</code></pre>
-<p>​    <img src="images/%E8%A1%A8%E6%A0%BC1.png"><br>​    3.表格的具体用法：</p>
-<pre><code>     &lt;table&gt;
-        &lt;tr&gt;
-            &lt;td&gt;单元格内的文字&lt;/td&gt;
-            ...
-        &lt;/tr&gt;
-        ...
-    &lt;/table&gt;</code></pre>
-<p>​        1.<table> </table> 是用于定义表格的标签。<br>​        2.<tr> </tr> 标签用于定义表格中的行，必须嵌套在 <table> </table>标签中。<br>​        3.<td> </td> 用于定义表格中的单元格，必须嵌套在<tr></tr>标签中。<br>​        4.字母 td 指表格数据（table data），即数据单元格的内容。</p>
-<h3 id="表头单元格标签："><a href="#表头单元格标签：" class="headerlink" title="表头单元格标签："></a>表头单元格标签：</h3><p>​        表头标签的具体实现：<br>​         <table><br>​            <tr><br>​                <th>姓名</th><br>​                …<br>​            </tr><br>​            …<br>​        </table><br>​        1.一般表头单元格位于表格的第一行或第一列，表头单元格里面的文本内容加粗居中显示.<br>​            <th> 标签表示 HTML 表格的表头部分(table head 的缩写)<br>​        2.一般表头单元格位于表格的第一行或第一列，表头单元格里面的文本内容加粗居中显示.<br>​            <th> 标签表示 HTML 表格的表头部分(table head 的缩写)<br>​    5.表头单元格也是单元格，常用于表格第一行突出重要性，表头单元格里面的文字会加粗居中</p>
+<p>​    <img src="images/%E8%A1%A8%E6%A0%BC1.png"><br>​    3.表格的具体用法：<br>     <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"> &lt;table&gt;</span><br><span class="line">    &lt;tr&gt;</span><br><span class="line">        &lt;td&gt;单元格内的文字&lt;&#x2F;td&gt;</span><br><span class="line">        ...</span><br><span class="line">    &lt;&#x2F;tr&gt;</span><br><span class="line">    ...</span><br><span class="line">&lt;&#x2F;table&gt;</span><br></pre></td></tr></table></figure><br>​        1.<table> </table> 是用于定义表格的标签。<br>​        2.<tr> </tr> 标签用于定义表格中的行，必须嵌套在 <table> </table>标签中。<br>​        3.<td> </td> 用于定义表格中的单元格，必须嵌套在<tr></tr>标签中。<br>​        4.字母 td 指表格数据（table data），即数据单元格的内容。</p>
+<h3 id="表头单元格标签："><a href="#表头单元格标签：" class="headerlink" title="表头单元格标签："></a>表头单元格标签：</h3> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">​        表头标签的具体实现：</span><br><span class="line">​         &lt;table&gt;</span><br><span class="line">​            &lt;tr&gt;</span><br><span class="line">​                &lt;th&gt;姓名&lt;&#x2F;th&gt;</span><br><span class="line">​                ...</span><br><span class="line">​            &lt;&#x2F;tr&gt;</span><br><span class="line">​            ...</span><br><span class="line">​        &lt;&#x2F;table&gt;</span><br></pre></td></tr></table></figure>
+<p>​        1.一般表头单元格位于表格的第一行或第一列，表头单元格里面的文本内容加粗居中显示.<br>​            <th> 标签表示 HTML 表格的表头部分(table head 的缩写)<br>​        2.一般表头单元格位于表格的第一行或第一列，表头单元格里面的文本内容加粗居中显示.<br>​            <th> 标签表示 HTML 表格的表头部分(table head 的缩写)<br>​    5.表头单元格也是单元格，常用于表格第一行突出重要性，表头单元格里面的文字会加粗居中</p>
 <h3 id="表格属性："><a href="#表格属性：" class="headerlink" title="表格属性："></a>表格属性：</h3><p>​    1.表格标签这部分属性我们实际开发我们不常用，后面通过 CSS 来设置.<br>​        <img src="images/%E8%A1%A8%E6%A0%BC%E5%B1%9E%E6%80%A7.png"><br>​    完成下面综合案例：</p>
 <p>​    <img src="images/%E8%A1%A8%E6%A0%BC%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B.png"></p>
 <p>​    <strong>思路：</strong></p>
@@ -174,28 +149,5 @@
         <tag>学习</tag>
         <tag>前端</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>这是Mr.yang文章</title>
-    <url>/2020/08/07/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="yang"><a href="#yang" class="headerlink" title="yang"></a>yang</h3><a id="more"></a>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
   </entry>
 </search>
