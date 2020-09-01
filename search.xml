@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Mr.yang</title>
-    <url>/2020/08/05/yang/</url>
-    <content><![CDATA[<h1 id="生活不苟且"><a href="#生活不苟且" class="headerlink" title="生活不苟且"></a>生活不苟且</h1><a id="more"></a>
-]]></content>
-      <categories>
-        <category>个人</category>
-      </categories>
-      <tags>
-        <tag>分享</tag>
-        <tag>导航</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>css 表格的使用</title>
     <url>/2020/08/19/css01/</url>
     <content><![CDATA[<h1 id="css第二天"><a href="#css第二天" class="headerlink" title="css第二天"></a>css第二天</h1><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><a id="more"></a>
@@ -148,6 +135,21 @@
       <tags>
         <tag>学习</tag>
         <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mr.yang</title>
+    <url>/2020/08/05/yang/</url>
+    <content><![CDATA[<h1 id="生活不苟且"><a href="#生活不苟且" class="headerlink" title="生活不苟且"></a>生活不苟且</h1><a id="more"></a>
+
+<p> 1.生活匆匆忙忙  只不过图碎银几两</p>
+]]></content>
+      <categories>
+        <category>个人</category>
+      </categories>
+      <tags>
+        <tag>分享</tag>
+        <tag>导航</tag>
       </tags>
   </entry>
 </search>
