@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Mr.yang</title>
-    <url>/2020/08/05/yang/</url>
+    <url>/2020/08/03/yang/</url>
     <content><![CDATA[<h1 id="生活不苟且"><a href="#生活不苟且" class="headerlink" title="生活不苟且"></a>生活不苟且</h1><a id="more"></a>
 
 <p> 1.生活匆匆忙忙  只不过图碎银几两</p>
@@ -13,6 +13,72 @@
       <tags>
         <tag>分享</tag>
         <tag>导航</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AxureRP</title>
+    <url>/2020/09/01/AxureRP/</url>
+    <content><![CDATA[<h1 id="AR破解"><a href="#AR破解" class="headerlink" title="AR破解"></a>AR破解</h1><a id="more"></a>
+
+
+<h1 id="破解码"><a href="#破解码" class="headerlink" title="破解码"></a>破解码</h1><p> 被授权人(Licensee)：<br> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">University of Science and Technology of China (CLASSROOM)</span><br></pre></td></tr></table></figure></p>
+<p>授权秘钥(Key)：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">DTXRAnPn1P65Rt0xB4eTQ+4bF5IUF0gu0X9XBEUhM4QxY0DRFJxYEmgh4nyh7RtL</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+        <tag>资源</tag>
+        <tag>AxureRP笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo 笔记</title>
+    <url>/2020/09/01/next/</url>
+    <content><![CDATA[<h1 id="Hexo个性化搭建笔记"><a href="#Hexo个性化搭建笔记" class="headerlink" title="Hexo个性化搭建笔记"></a>Hexo个性化搭建笔记</h1><a id="more"></a>
+
+<h2 id="1-hexo博客的启动"><a href="#1-hexo博客的启动" class="headerlink" title="1.hexo博客的启动"></a>1.hexo博客的启动</h2><p>1.首先在命令面板中进入到博客建设目录<br>    在输入启动命令<br>    <code>hexo s -p 5555</code></p>
+<pre><code>这个端口号可以自己设的  只要不冲突  问题就不大
+
+解析 hexo 是博客 s是启动 5555是调动的端口</code></pre>
+<hr>
+<h2 id="2-语言配置"><a href="#2-语言配置" class="headerlink" title="2.语言配置"></a>2.语言配置</h2><p>   1.官方文档给的是修改站点配置文件，将language设置你所需要的语言 官方文档代码是zh-Hans </p>
+<p>   <img src="https://s1.ax1x.com/2020/09/01/dxOM79.png" alt="dxOM79.png"></p>
+<p>   2.但是我试过之后发现无法解决，甚至还出现了乱码，后来在zh上csdn看了很多 ，发现是一个很小的错误，才发现是自己next主题下的文件名不一样 ，next主题下的中文代码只有三种zh-CN，zh-HK,zh-TW</p>
+<p>   <img src="https://s1.ax1x.com/2020/09/01/dxOUne.png" alt="dxOUne.png"><br>    后来只要把自己的配置文件改为zh-cn就解决了</p>
+<hr>
+<h2 id="3-清除样式"><a href="#3-清除样式" class="headerlink" title="3.清除样式"></a>3.清除样式</h2><p>1.清除样式<br>    <code>hexo clear</code></p>
+<p><img src="https://s1.ax1x.com/2020/09/01/dxXhrD.png" alt="dxXhrD.png"></p>
+<p>2.清除完 重新部署<br>    <code>hexo -g</code></p>
+<p><img src="https://s1.ax1x.com/2020/09/01/dxXvqg.png" alt="dxXvqg.png"><br>部署完在重启项目就行了</p>
+<hr>
+<h2 id="4-新建便签文件夹"><a href="#4-新建便签文件夹" class="headerlink" title="4.新建便签文件夹"></a>4.新建便签文件夹</h2><p>1.注意 需在终端中输入<br><img src="https://s1.ax1x.com/2020/09/01/dxjoOU.png" alt="dxjoOU.png"><br>2.新建标签<br><img src="https://s1.ax1x.com/2020/09/01/dxjHw4.png" alt="dxjHw4.png"></p>
+<hr>
+<h2 id="5-上传博客-开始部署"><a href="#5-上传博客-开始部署" class="headerlink" title="5. 上传博客 开始部署"></a>5. 上传博客 开始部署</h2><p>  我这是没有买服务器，直接部署到gi.thub上的</p>
+<ol>
+<li><p>在hexo目录下进行首先开始打包<br><code>hexo g</code></p>
+<p><img src="https://s1.ax1x.com/2020/09/01/dxzaFJ.png" alt="dxzaFJ.png"></p>
+</li>
+<li><p>然后开始上传</p>
+<p><code>hexo d</code></p>
+<p><img src="https://s1.ax1x.com/2020/09/01/dxzry6.png" alt="dxzry6.png"></p>
+<p>注意如果是上传到git.ub上的话就要，注意上传的时候把github网址打开，不要关闭，否则会出现错误</p>
+</li>
+</ol>
+<hr>
+<h2 id="6-添加网易云插件"><a href="#6-添加网易云插件" class="headerlink" title="6.添加网易云插件"></a>6.添加网易云插件</h2><p> 1.我这是在网上找的，我部署成功了 ，所以直接截图放上来了 ，有问题可以给我留言<br> 当然其中网易云插件不能实现全局播放，一跳一个页面就会停止，这个问题会在下一节解决<br> <img src="https://s1.ax1x.com/2020/09/01/dzSG9A.png" alt="dzSG9A.png"></p>
+<hr>
+<h2 id="7-用ajpx实现全局播放"><a href="#7-用ajpx实现全局播放" class="headerlink" title="7.用ajpx实现全局播放"></a>7.用ajpx实现全局播放</h2><p> 1.即实现页面跳转后的不间断播放</p>
+<p> <img src="https://s1.ax1x.com/2020/09/01/dzpax1.png" alt="dzpax1.png"></p>
+<hr>
+<h2 id="8-添加404页面"><a href="#8-添加404页面" class="headerlink" title="8.添加404页面"></a>8.添加404页面</h2><p> 1.个人博客添加404公益页面不知道怎么说 ， 想加的还是可以加一下吧</p>
+]]></content>
+      <categories>
+        <category>Hexo笔记</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -142,7 +208,7 @@
 <p>​        </textarea></p>
 <p>​    </form></p>
 <p>有三个名字非常相似的标签:表单域   form    使用场景:  提交区域内表单元素给后台服务器文件域   file      是input type 属性值   使用场景: 上传文件文本域   textarea    使用场景:  可以输入多行文字, 比如留言板  网站介绍等…4. 我们当前阶段不需要提交表单元素,所以我们只负责表单元素的外观形态即可.</p>
-<h3 id="完成综合案例"><a href="#完成综合案例" class="headerlink" title="完成综合案例"></a>完成综合案例</h3><h3 id="查阅文档："><a href="#查阅文档：" class="headerlink" title="查阅文档："></a>查阅文档：</h3><p>​    经常查阅文档是一个非常好的学习习惯。<br>​    推荐的网址：<br>​    百度:  <a href="http://www.baidu.com/">http://www.baidu.com</a><br>​    W3C :  <a href="http://www.w3school.com.cn/">http://www.w3school.com.cn/</a><br>​    MDN: <a href="https://developer.mozilla.org/zh-CN/">https://developer.mozilla.org/zh-CN/</a></p>
+<h3 id="完成综合案例"><a href="#完成综合案例" class="headerlink" title="完成综合案例"></a>完成综合案例</h3><h3 id="查阅文档："><a href="#查阅文档：" class="headerlink" title="查阅文档："></a>查阅文档：</h3><p>​    经常查阅文档是一个非常好的学习习惯。<br>​    推荐的网址：<br>​    百度:  <span class="exturl" data-url="aHR0cDovL3d3dy5iYWlkdS5jb20v">http://www.baidu.com<i class="fa fa-external-link-alt"></i></span><br>​    W3C :  <span class="exturl" data-url="aHR0cDovL3d3dy53M3NjaG9vbC5jb20uY24v">http://www.w3school.com.cn/<i class="fa fa-external-link-alt"></i></span><br>​    MDN: <span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04v">https://developer.mozilla.org/zh-CN/<i class="fa fa-external-link-alt"></i></span></p>
 ]]></content>
       <categories>
         <category>学习</category>
