@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yangzhuan.github.io/"/>
-  <updated>2020-09-22T12:02:32.306Z</updated>
+  <updated>2020-09-26T06:58:53.190Z</updated>
   <id>https://yangzhuan.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Maven安装与配置</title>
+    <link href="https://yangzhuan.github.io/2020/09/26/bolg/Maven/"/>
+    <id>https://yangzhuan.github.io/2020/09/26/bolg/Maven/</id>
+    <published>2020-09-26T06:35:42.953Z</published>
+    <updated>2020-09-26T06:58:53.190Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Maven安装与配置"><a href="#Maven安装与配置" class="headerlink" title="Maven安装与配置"></a>Maven安装与配置</h1><a id="more"></a><h2 id="Maven下载"><a href="#Maven下载" class="headerlink" title="Maven下载"></a>Maven下载</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p> 1.打开maven官网  <code>http://www.apache.org/licenses/</code>进入下载，</p><p> 2.下载到电脑上 ，然后直接解压<br> <a href="https://imgchr.com/i/0PIpkV"><img src="https://s1.ax1x.com/2020/09/26/0PIpkV.png" alt="0PIpkV.png"></a></p><p> 3.解压完成后在电脑中配置环境变量<br>   配置环境中<br>   新建一个环境变量<br>   变量名：<code>M2_HOME</code><br>   变量值为<code>刚刚解压缩的文件夹路径</code><br><a href="https://imgchr.com/i/0PIY7t"><img src="https://s1.ax1x.com/2020/09/26/0PIY7t.png" alt="0PIY7t.png"></a></p><p>保存</p><p>再在环境变量Path中新建一个变量 变量值为<code>%M2_HOME%\bin</code><br><img src="https://s1.ax1x.com/2020/09/26/0PTYJf.png" alt="0PTYJf.png"></p><p>保存 配置完成<br>在打开idea进行项目勾选即可</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Maven安装与配置&quot;&gt;&lt;a href=&quot;#Maven安装与配置&quot; class=&quot;headerlink&quot; title=&quot;Maven安装与配置&quot;&gt;&lt;/a&gt;Maven安装与配置&lt;/h1&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="笔记" scheme="https://yangzhuan.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>要成为像成为的人</title>
